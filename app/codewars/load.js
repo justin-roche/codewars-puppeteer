@@ -24,7 +24,7 @@ async function getInfo(page) {
         kyu: kyu.split(' ')[0],
         language: language.toLowerCase(),
         stars: infoResults[0],
-        satsifacation: infoResults[4],
+        satisfaction: infoResults[4],
         completions: infoResults[5],
         issues: infoResults[6] ? infoResults[6].split(" ")[0] : "none",
     };
