@@ -1,0 +1,19 @@
+{
+    "exec": "node app/app.js",
+    "ext": "js",
+    "env": {
+        "SESSION_SECRET": "yo",
+        "TIME_LARGE": "100000",
+        "TIME_SMALL": "1000",
+        "TOKEN": "10.10.10.10",
+        "CONCURRENCY": "10"
+    },
+    "watch": [
+        "app/**/*.js"
+    ],
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "verbose": false
+}

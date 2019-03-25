@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "express": "^4.16.4",
+        "html-to-text": "^4.0.0",
+        "http": "0.0.0",
+        "node-cleanup": "^2.1.2",
+        "nodemon": "^1.18.10",
+        "puppeteer": "^1.12.2",
+        "request": "^2.88.0"
+    },
+    "license": "ISC",
+    "author": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./nodemon.json"
+    },
+    "main": ".#test.route.js",
+    "description": "",
+    "version": "1.0.0",
+    "name": "codewars-puppeteer"
+}
